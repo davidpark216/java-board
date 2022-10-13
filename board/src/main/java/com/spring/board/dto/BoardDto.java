@@ -1,6 +1,6 @@
 package com.spring.board.dto;
- 
-public class BoardDto {
+
+public class BoardDto extends CommonDto {
  
     int board_seq;
     int board_re_ref;
@@ -129,6 +129,6 @@ public class BoardDto {
     public void setResult(String result) {
         this.result = result;
     }
- 
 }
+
 

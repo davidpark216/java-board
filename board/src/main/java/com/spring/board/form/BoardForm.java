@@ -1,8 +1,8 @@
 package com.spring.board.form;
  
 import java.util.Date;
- 
-public class BoardForm {
+
+public class BoardForm extends CommonForm {
  
     int board_seq;
     int board_re_ref;
@@ -129,7 +129,6 @@ public class BoardForm {
  
     public void setSearch_type(String search_type) {
         this.search_type = search_type;
-    }
- 
+    } 
 }
 
